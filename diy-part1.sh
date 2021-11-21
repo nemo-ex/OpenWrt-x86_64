@@ -19,4 +19,4 @@
 
 git clone https://github.com/xiaorouji/openwrt-passwall package/jmwcustompkg/openwrt-passwall
 git clone https://github.com/vernesong/OpenClash.git package/jmwcustompkg/OpenClash
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/jmwcustompkg/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/jmwcustompkg/luci-app-smartdns
