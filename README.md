@@ -1,5 +1,16 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+# diffconfig
+
+```shell
+# .config -> diffconfig 生成diffconfig，抽离出的定制信息文件，兼容性更好
+./scripts/diffconfig.sh > diffconfig
+
+#.config <- diffconfig
+move ./diffconfig ./.config # 改名成.config
+make defconfig
+```
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
